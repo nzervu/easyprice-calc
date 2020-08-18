@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="326.0" prefWidth="848.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="φπα%" />
+                        <TextField fx:id="fpa" alignment="CENTER" onKeyTyped="#getFpa" text="24" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="κέρδος%" />
+                        <TextField fx:id="posostoKerdous" alignment="CENTER" onKeyTyped="#getPosostoKerdous" text="30" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" layoutX="110.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="δεκαδικα" />
+                        <TextField fx:id="decimals" alignment="CENTER" onKeyTyped="#getDecimals" text="2" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="αγορά" />
+                        <TextField fx:id="agora" alignment="CENTER" onKeyTyped="#typedAgora" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="αγορα + φπα" />
+                        <TextField fx:id="agoraFpa" alignment="CENTER" onKeyTyped="#typedAgoraFPA" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" layoutX="110.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="λιανική" />
+                        <TextField fx:id="lianiki" alignment="CENTER" editable="false" opacity="0.5" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" layoutX="210.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="λιανική+ φπα" />
+                        <TextField fx:id="lianikiFpa" alignment="CENTER" editable="false" opacity="0.5" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" layoutX="310.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="κέρδος καθαρό" />
+                        <TextField fx:id="kerdos" alignment="CENTER" editable="false" opacity="0.5" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+            <TextArea editable="false" prefHeight="200.0" prefWidth="200.0" text="&#10;Ένα απλό πρόγραμμα για υπολογισμό τιμών πώλησης, σε συνάρτηση με το ποσοστό κέρδους και το φπα.&#10;Επίσης υπάρχει επιλογή στρογγυλοποίηση βάσει της επιλογής αριθμού δεκαδικών ψηφίων των τιμών.&#10;&#10;Το πρόγραμμα κάνει ελέγχους στην είσοδο χρήστη και διορθώνει τυχόν λάθη.&#10;Τα πεδία δέχονται μόνο θετικούς αριθμούς. Οι αρνητικοί αριθμοί γίνονται 0. Αν ο χρήστης πληκτρολογήσει χαρακτήρα, το πεδίο το απορρίπτει. &#10;Το φπα% δέχεται μέγιστη τιμή 50%.&#10; " />
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <TextArea editable="false" prefHeight="30.0" prefWidth="800.0" text="Easy Price Calculator by nzervu - Built with Java 14 + JavaFX 14 σε περιβάλλον InteliJ IDEA 2020.2" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
