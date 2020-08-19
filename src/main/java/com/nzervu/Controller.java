@@ -1,7 +1,7 @@
+package com.nzervu;
+
 import javafx.fxml.FXML;
-
 import javafx.scene.control.TextField;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 

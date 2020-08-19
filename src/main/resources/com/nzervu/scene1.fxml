@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="326.0" prefWidth="848.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nzervu.Controller">
    <center>
       <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
          <children>
@@ -74,6 +74,6 @@
       </VBox>
    </center>
    <top>
-      <TextArea editable="false" prefHeight="30.0" prefWidth="800.0" text="Easy Price Calculator by nzervu - Built with Java 14 + JavaFX 14 σε περιβάλλον InteliJ IDEA 2020.2" BorderPane.alignment="CENTER" />
+      <TextArea editable="false" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="800.0" text="Easy Price Calculator by nzervu - Built with Java 14 + JavaFX 14 σε περιβάλλον InteliJ IDEA 2020.2, built tools Maven" BorderPane.alignment="CENTER" />
    </top>
 </BorderPane>
