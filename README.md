@@ -1,5 +1,8 @@
 # easyprice-calc
 An easy price calculator for product price with %profit and %tax
+
+Built with Java 14, InteliJ IDEA 2020, JavaFX 14 and built tool Maven
+
 The tax% is set to 24% by default, as it is in most products in Greece, but you can alter it.
 
 # translations:
